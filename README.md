@@ -3,7 +3,7 @@ This project demonstrates a hidden, encrypted chat application that uses network
 
 # Key Features:
 - Covert channel creation using IPv4 timestamp option (overflow field)
-- End-to-end AES encrypted chat communication
+- End-to-end RSA encrypted chat communication
 - Demonstrates the concept of hiding messages in legitimate network traffic
 - Implementation of steganographic techniques in real network protocols
 - Useful for research in cybersecurity, network security, and covert communication
