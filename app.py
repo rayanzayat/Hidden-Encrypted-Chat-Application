@@ -1,3 +1,21 @@
+# ----------------------------------------------------------------------
+#  Copyright (c) 2024 Rayan Zayat
+#  All Rights Reserved.
+#
+#  Author: Rayan Zayat (rayanzayat.com)
+#  Description: This code is developed and maintained by Rayan Zayat.
+#
+#  License:
+#  You are free to use, modify, and distribute this code for personal or
+#  educational purposes, as long as you credit Rayan Zayat as the original author.
+#
+#  Recommended citation or credit in your project:
+#     "Code adapted from Rayan Zayat (rayanzayat.com), 2024"
+#
+#  Contact: contact@rayanzayat.com
+#           rayan.zayat4@gmail.com
+# ----------------------------------------------------------------------
+
 import logging
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from scapy.all import *
@@ -335,3 +353,4 @@ if __name__ == "__main__":
 
     except Exception:
         exit()
+
